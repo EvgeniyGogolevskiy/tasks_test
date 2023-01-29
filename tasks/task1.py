@@ -7,10 +7,10 @@ candidates = [
     {"name": "Dubinin", "scores": {"math": 93, "russian_language": 48, "computer_science": 100}, "extra_scores": 5}
 ]
 
-class Candidate(candidates):
-    def __init__(self, name, scores):
-        self.name = name
-        self.scores = scores
+class Candidate:
+    name = ''
+    scores = {}
+    extra_scores = 0
 
 
 
